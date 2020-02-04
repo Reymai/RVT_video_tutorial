@@ -1,0 +1,48 @@
+.mainbox{
+	background-color: coral;
+	width: 800px;
+	margin: 0px auto
+}
+
+.menu{
+	background-color: brown;
+	height: 34px;
+	text-align: center;
+}
+
+.leftside{
+	background-color: green;
+	width: 100px;
+	float: left;
+}
+
+.main{
+	background-color: cadetblue;
+	width: 600px;
+	float :left;
+}
+
+.rightside{
+	background-color: khaki;
+	width: 100px;
+	float: left;
+}
+
+.footer{
+	background-color: skyblue;
+}
+
+.menu>ul>li{
+	display:inline;
+	padding: 10px;
+	background-color: pink;
+	position: relative;
+	top:8px;
+	font-family: Tahoma, serif;
+	font-size: 15px;
+}
+
+.menu>ul>li>a{
+	text-decoration: none;
+	color: white;
+}
