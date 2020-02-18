@@ -46,3 +46,11 @@
 	text-decoration: none;
 	color: white;
 }
+
+.gallery img{
+	max-width: 100px;
+}
+
+.menu-gallery{
+	text-align: center;
+}
