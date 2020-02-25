@@ -1,28 +1,27 @@
-.mainbox{
-	background-color: coral;
+body{
+	background-color: #757575;
 	width: 800px;
 	margin: 0px auto
 }
 
 .menu{
-	background-color: brown;
+	background-color: #673ab7;
 	height: 34px;
 	text-align: center;
 }
 
-.leftside{
-	background-color: green;
+.leftSide{
 	width: 100px;
 	float: left;
 }
 
 .main{
-	background-color: cadetblue;
+	background-color:  #494949;
 	width: 600px;
 	float :left;
 }
 
-.rightside{
+.rightSide{
 	background-color: khaki;
 	width: 100px;
 	float: left;
@@ -35,7 +34,6 @@
 .menu>ul>li{
 	display:inline;
 	padding: 10px;
-	background-color: pink;
 	position: relative;
 	top:8px;
 	font-family: Tahoma, serif;
@@ -53,4 +51,9 @@
 
 .menu-gallery{
 	text-align: center;
+}
+
+.ava{
+	float: left;
+	width: 100%;	
 }
